@@ -23,7 +23,10 @@ With **RecMate**, you can record live streams from your favorite platforms—eas
   - Chaturbate
   - Cam4
   - Stripchat
-  - BongaCams  
+  - Stripchat VR
+  - BongaCams
+  - Dreamcam
+  - Dreamcam VR
   *(More platforms coming soon!)*
 
 ---
