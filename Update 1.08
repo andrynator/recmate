@@ -1,0 +1,43 @@
+# RecMate – Professional Stream Recorder
+
+RecMate ist ein Windows-Tool zur automatisierten Verwaltung, Überwachung und Aufzeichnung von Cam-Streams. Die Anwendung kombiniert Playwright-basierte Extraktoren, einen integrierten Player auf Basis von LibVLC sowie leistungsstarke Workflows für Monitoring, Recording und Review.
+
+> **Hinweis:** Füge dein GIF direkt nach der Überschrift **„Schnelleinblick“** ein, z. B.  
+> `![RecMate Demo](./assets/rec-mate-demo.gif)`
+
+## Schnelleinblick
+![RecMate Demo](https://s12.gifyu.com/images/b9pLz.gif)
+
+## Highlights
+- **Multi-Plattform-Support:** Chaturbate, Cam4, BongaCams, Stripchat, Stripchat VR und Dreamcam werden nativ unterstützt.
+- **Zuverlässige Statusprüfung:** Plattform-spezifische Checks stellen sicher, dass Live/Offline-Zustände korrekt erkannt werden.
+- **Automatisiertes Recording:** Lizenzabhängige Limits, benutzerdefinierte Qualitätsprofile und automatische Dateibenennung.
+- **Monitor & Review:** Eingebetteter Stream-Player, Fortschrittsanzeigen, Filter und Tagging für archivierte Aufnahmen.
+- **Eingebaute Tools:** LibVLC, yt-dlp, ffmpeg/ffprobe und Playwright-Browser werden automatisch mitgeliefert.
+
+## Version 1.08 (12.11.2025)
+- **Stripchat VR Pre-Check:** Vor jedem Recording wird nun ein Playwright-gestützter Live-Check ausgeführt. Offline- oder Private-Streams werden dadurch blockiert, bevor yt-dlp startet.
+- **Stabilere Aufnahmen:** HTTP-Fallbacks greifen nur noch bei gültigem VR-Status; Fehlstarts werden verhindert.
+- **Distribution aktualisiert:** Neues Release-Paket `RecMate_v1.08.zip` im Ordner `C:\Users\User\CascadeProjects\RecMate_Distributions\`.
+
+## Installation
+- **Download:** `RecMate_v1.08.zip` aus dem Distributionsordner.
+- **Entpacken:** Inhalt in ein Zielverzeichnis deiner Wahl extrahieren.
+- **Starten:** `RecMate.exe` ausführen.
+
+## Unterstützte Plattformen
+- **Chaturbate**
+- **Cam4**
+- **BongaCams**
+- **Stripchat**
+- **Stripchat VR**
+- **Dreamcam**
+
+## Mitgelieferte Komponenten
+- **Tools/** – yt-dlp, ffmpeg, ffprobe
+- **.playwright/** – Playwright-Browserbundle
+- **libvlc/** – VLC Runtime
+- **Languages/** – Lokalisierungen: Deutsch, Englisch, Spanisch, Französisch
+
+## Lizenz
+© 2025 RecMate Team. Alle Rechte vorbehalten. Weitere Informationen siehe In-App-Lizenzmanager.
