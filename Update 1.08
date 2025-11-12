@@ -1,43 +1,42 @@
 # RecMate – Professional Stream Recorder
 
-RecMate ist ein Windows-Tool zur automatisierten Verwaltung, Überwachung und Aufzeichnung von Cam-Streams. Die Anwendung kombiniert Playwright-basierte Extraktoren, einen integrierten Player auf Basis von LibVLC sowie leistungsstarke Workflows für Monitoring, Recording und Review.
+RecMate is a Windows tool for automating the management, monitoring, and recording of cam streams. The application combines Playwright-powered extractors, an integrated LibVLC-based player, and streamlined workflows for monitoring, recording, and reviewing your archive.
 
-> **Hinweis:** Füge dein GIF direkt nach der Überschrift **„Schnelleinblick“** ein, z. B.  
-> `![RecMate Demo](./assets/rec-mate-demo.gif)`
-
-## Schnelleinblick
+## Quick Look
 ![RecMate Demo](https://s12.gifyu.com/images/b9pLz.gif)
 
 ## Highlights
-- **Multi-Plattform-Support:** Chaturbate, Cam4, BongaCams, Stripchat, Stripchat VR und Dreamcam werden nativ unterstützt.
-- **Zuverlässige Statusprüfung:** Plattform-spezifische Checks stellen sicher, dass Live/Offline-Zustände korrekt erkannt werden.
-- **Automatisiertes Recording:** Lizenzabhängige Limits, benutzerdefinierte Qualitätsprofile und automatische Dateibenennung.
-- **Monitor & Review:** Eingebetteter Stream-Player, Fortschrittsanzeigen, Filter und Tagging für archivierte Aufnahmen.
-- **Eingebaute Tools:** LibVLC, yt-dlp, ffmpeg/ffprobe und Playwright-Browser werden automatisch mitgeliefert.
+- **Multi-platform support:** Native integrations for Chaturbate, Cam4, BongaCams, Stripchat, Stripchat VR, Dreamcam, and Dreamcam VR.
+- **Reliable status detection:** Platform-specific checks ensure live/offline states are recognized correctly before recordings start.
+- **Automated recording:** License-aware recording limits, custom quality presets, and automatic file naming keep your workflow organized.
+- **Monitor & review:** Embedded stream player, progress indicators, filtering, and tagging for archived sessions.
+- **Bundled tooling:** LibVLC, yt-dlp, ffmpeg/ffprobe, and Playwright browsers ship with the app for a zero-setup experience.
 
-## Version 1.08 (12.11.2025)
-- **Stripchat VR Pre-Check:** Vor jedem Recording wird nun ein Playwright-gestützter Live-Check ausgeführt. Offline- oder Private-Streams werden dadurch blockiert, bevor yt-dlp startet.
-- **Stabilere Aufnahmen:** HTTP-Fallbacks greifen nur noch bei gültigem VR-Status; Fehlstarts werden verhindert.
-- **Distribution aktualisiert:** Neues Release-Paket `RecMate_v1.08.zip` im Ordner `C:\Users\User\CascadeProjects\RecMate_Distributions\`.
+## Version 1.08 (2025-11-12)
+- **Stripchat VR pre-check:** A Playwright-based live verification now runs before each recording. Offline/private sessions are blocked before yt-dlp launches.
+- **More robust captures:** HTTP fallbacks trigger only when the VR session is confirmed live, eliminating false starts.
+- **New distribution:** Release package `RecMate_v1.08.zip` available in `C:\Users\User\CascadeProjects\RecMate_Distributions\`.
 
 ## Installation
-- **Download:** `RecMate_v1.08.zip` aus dem Distributionsordner.
-- **Entpacken:** Inhalt in ein Zielverzeichnis deiner Wahl extrahieren.
-- **Starten:** `RecMate.exe` ausführen.
+- **Download:** `RecMate_v1.08.zip` from the distributions folder.
+- **Extract:** Unzip the package to your preferred directory.
+- **Launch:** Run `RecMate.exe`.
 
-## Unterstützte Plattformen
-- **Chaturbate**
-- **Cam4**
-- **BongaCams**
-- **Stripchat**
-- **Stripchat VR**
-- **Dreamcam**
+## Supported Platforms
+- Chaturbate
+- Cam4
+- BongaCams
+- Stripchat
+- Stripchat VR
+- Dreamcam
+- Dreamcam VR
 
-## Mitgelieferte Komponenten
+## Bundled Components
 - **Tools/** – yt-dlp, ffmpeg, ffprobe
-- **.playwright/** – Playwright-Browserbundle
-- **libvlc/** – VLC Runtime
-- **Languages/** – Lokalisierungen: Deutsch, Englisch, Spanisch, Französisch
+- **.playwright/** – Playwright browser bundle
+- **libvlc/** – VLC runtime
+- **Languages/** – Localizations (German, English, Spanish, French)
 
-## Lizenz
-© 2025 RecMate Team. Alle Rechte vorbehalten. Weitere Informationen siehe In-App-Lizenzmanager.
+## License
+© 2025 RecMate Team. All rights reserved. See the in-app license manager for details.
+
